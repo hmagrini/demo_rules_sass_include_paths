@@ -1,0 +1,14 @@
+{
+  "name": "demo_rules_sass_include_paths",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hernan Magrini <her.magrini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "bazel": "bazel build //hello_world",
+    "sass": "node ./render_sass.js"
+  }
+}
